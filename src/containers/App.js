@@ -24,7 +24,7 @@ function App(){
         return robot.name.toLowerCase().includes(searchField.toLowerCase());
     });
 
-    if(!this.state.robots){
+    if(!robots){
         return <h1>Loading</h1>
     }else{
         return(
